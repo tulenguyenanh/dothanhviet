@@ -26,19 +26,17 @@ export default function Home() {
       <SectionTitle preTitle="Cam kết">
         Với đội ngũ nhân viên nhiệt huyết,công ty Đô Thành Việt luôn đặt quý
         khách lên hàng đầu với cam kết quyên lợi như sau:
-        <ul className="text-left list-disc mt-5">
-          <li>Giá tối ưu so với thị trường ít nhất 10%.</li>
-          <li>
-            Máy móc hiện đại, hoá chất nguồn gốc bảo đảm an toàn tuyệt đối.
-          </li>
-          <li>
-            Chất lượng dịch vụ hài lòng, nhân viên với trình độ chuyên môn, lý
-            lịch rõ ràng.
-          </li>
-          <li>Cam kết khách hàng hài lòng với dịch vụ mới nhận thanh toán.</li>
-          <li>Sẵn sàng cung cấp dịch vụ chuyên nghiệp 24/24.</li>
-        </ul>
       </SectionTitle>
+      <ul className="text-left list-disc mt-5">
+        <li>Giá tối ưu so với thị trường ít nhất 10%.</li>
+        <li>Máy móc hiện đại, hoá chất nguồn gốc bảo đảm an toàn tuyệt đối.</li>
+        <li>
+          Chất lượng dịch vụ hài lòng, nhân viên với trình độ chuyên môn, lý
+          lịch rõ ràng.
+        </li>
+        <li>Cam kết khách hàng hài lòng với dịch vụ mới nhận thanh toán.</li>
+        <li>Sẵn sàng cung cấp dịch vụ chuyên nghiệp 24/24.</li>
+      </ul>
     </Container>
   );
 }
