@@ -27,7 +27,8 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               Công ty dịch vụ vệ sinh Hộ gia đình Đô Thành Việt
               <ul className="list-disc pl-4">
-                <li>Văn phòng:</li> <li>Hotline(24/24)</li> <li> Email</li>
+                <li>Văn phòng: 45 mai văn ngọc phường phú nhuận</li>{" "}
+                <li>Hotline(24/24): 098 457 88 66</li> <li> Email</li>
               </ul>
             </div>
           </div>
