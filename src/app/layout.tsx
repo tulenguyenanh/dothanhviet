@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
@@ -73,6 +74,23 @@ export default function RootLayout({
           <div>{children}</div>
           <Footer />
         </ThemeProvider>
+
+        <div className="fixed right-10 bottom-10 z-10">
+          <div className="flex justify-center">
+            <span className="relative flex h-16 w-16">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"></span>
+              <span className="relative inline-flex h-16 w-16 rounded-full bg-blue-500"></span>
+            </span>
+          </div>
+          <a
+            href="https://zalo.me/0984578866"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4"
+          >
+            <Image src="/zalo.png" alt="Chat Zalo" width={40} height={40} />
+          </a>
+        </div>
       </body>
     </html>
   );
